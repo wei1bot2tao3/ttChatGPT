@@ -53,6 +53,7 @@ func main() {
 
 	// 提取 total_available 的值
 	totalAvailable := summary.TotalAvailable
+	fmt.Println("记得充值")
 	fmt.Println("当前余额:", totalAvailable)
 }
 

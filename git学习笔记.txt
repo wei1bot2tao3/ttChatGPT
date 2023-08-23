@@ -1,0 +1,21 @@
+新建仓库
+git init
+添加文件到仓库
+git add .
+提交更改：
+git commit -m "Initial commit"
+关联远程仓库 origin 表示默认
+git remote add origin <remote-url>
+
+推送
+这将把本地仓库的 "master" 分支推送到名为 "origin" 的远程仓库。
+git push origin master
+查看分支：
+git branch
+运行以下命令来创建一个新的分支：
+git branch <branch-name>
+要切换到新创建的分支，可以运行以下命令：
+git checkout <branch-name>
+
+覆盖分支
+git push --set-upstream origin web1

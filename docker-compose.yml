@@ -6,6 +6,6 @@ services:
     environment:
       - OPENAI_API_KEY=fk213819-LV6bFDfyzGfztX2jXhBqdTRR8OvkLaCQ   # 填写你的 API KEY
       - BASE_URL=https://openai.api2d.net
-        # 填一个密码，不然你的额度很快就会被刷完
+      - CODE=19201104    # 填一个密码，不然你的额度很快就会被刷完
 
     image: yidadaa/chatgpt-next-web
